@@ -12,14 +12,12 @@ public class Persona {
     private String nombre;
     private int edad;
 
-
     public Persona() {}
 
     public Persona(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
     }
-
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
