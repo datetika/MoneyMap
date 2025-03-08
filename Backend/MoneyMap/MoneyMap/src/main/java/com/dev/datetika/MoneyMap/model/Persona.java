@@ -12,7 +12,7 @@ public class Persona {
     private String nombre;
     private int edad;
 
-    // Constructor vacío necesario para JPA
+
     public Persona() {}
 
     public Persona(String nombre, int edad) {
@@ -20,7 +20,7 @@ public class Persona {
         this.edad = edad;
     }
 
-    // Getters y Setters
+
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     public String getNombre() { return nombre; }
